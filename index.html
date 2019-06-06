@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Orbits</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="fontawesome/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg">
+		<a class="navbar-brand" href="/">ORBITS</a>
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<i class="fas fa-bars"></i>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Something else here</a>
+				</div>
+			</li>
+		</ul>
+		<a class="nav-link" href="#"><i class="fas fa-power-off"></i> Logout</a>
+	</nav>
+
+	<div class="d-flex" id="wrapper">
+
+		<!-- Sidebar -->
+		<div class="bg-light border-right" id="sidebar-wrapper">
+			<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="100" height="100"viewBox="0 0 192 192" style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,192v-192h192v192z" fill="none"></path><path d="M0,96c0,-53.01934 42.98066,-96 96,-96c53.01934,0 96,42.98066 96,96c0,53.01934 -42.98066,96 -96,96c-53.01934,0 -96,-42.98066 -96,-96zM96,188.16c50.89856,0 92.16,-41.26144 92.16,-92.16c0,-50.89856 -41.26144,-92.16 -92.16,-92.16c-50.89856,0 -92.16,41.26144 -92.16,92.16c0,50.89856 41.26144,92.16 92.16,92.16z" fill="#cccccc"></path><g fill="#cccccc"><g id="surface1"><path d="M79.04968,37.632c-3.10532,0 -5.70616,1.79368 -7.26442,4.12547c0,0.03363 0,0.05605 0,0.08968l-4.57389,7.26442h-25.73937c-7.881,0 -14.34947,6.46847 -14.34947,14.34947v68.87747c0,7.881 6.46847,14.34947 14.34947,14.34947h109.056c7.881,0 14.34947,-6.46847 14.34947,-14.34947v-68.87747c0,-7.881 -6.46847,-14.34947 -14.34947,-14.34947h-26.00842l-4.57389,-7.26442c0,-0.03363 0,-0.05605 0,-0.08968c-1.55826,-2.33179 -4.15911,-4.12547 -7.26442,-4.12547zM79.04968,43.37179h33.63158c0.91926,0 1.68158,0.50447 2.42147,1.61432l5.47074,8.52c0.5269,0.82958 1.43495,1.34526 2.42147,1.34526h27.53305c4.75326,0 8.60968,3.85642 8.60968,8.60968v68.87747c0,4.75326 -3.85642,8.60968 -8.60968,8.60968h-109.056c-4.75326,0 -8.60968,-3.85642 -8.60968,-8.60968v-68.87747c0,-4.75326 3.85642,-8.60968 8.60968,-8.60968h27.264c0.98653,0 1.89458,-0.51568 2.42147,-1.34526l5.38105,-8.52l0.08968,-0.08968c0.71747,-1.00895 1.54705,-1.52463 2.42147,-1.52463zM52.95158,60.59116c-4.71963,0 -8.60968,3.89005 -8.60968,8.60968c0,4.71963 3.89005,8.60968 8.60968,8.60968c4.71963,0 8.60968,-3.89005 8.60968,-8.60968c0,-4.71963 -3.89005,-8.60968 -8.60968,-8.60968zM52.95158,66.33095c1.5919,0 2.86989,1.278 2.86989,2.86989c0,1.5919 -1.278,2.86989 -2.86989,2.86989c-1.59189,0 -2.86989,-1.278 -2.86989,-2.86989c0,-1.59189 1.278,-2.86989 2.86989,-2.86989zM96,66.33095c-17.39874,0 -31.56884,14.17011 -31.56884,31.56884c0,17.39874 14.17011,31.56884 31.56884,31.56884c17.39874,0 31.56884,-14.17011 31.56884,-31.56884c0,-17.39874 -14.17011,-31.56884 -31.56884,-31.56884zM96,72.07074c14.29342,0 25.82905,11.53563 25.82905,25.82905c0,14.29342 -11.53563,25.82905 -25.82905,25.82905c-14.29342,0 -25.82905,-11.53563 -25.82905,-25.82905c0,-14.29342 11.53563,-25.82905 25.82905,-25.82905z"></path></g></g><path d="" fill="none"></path><path d="" fill="none"></path><path d="M96,192c-53.01934,0 -96,-42.98066 -96,-96v0c0,-53.01934 42.98066,-96 96,-96v0c53.01934,0 96,42.98066 96,96v0c0,53.01934 -42.98066,96 -96,96z" fill="none"></path><path d="M96,188.16c-50.89856,0 -92.16,-41.26144 -92.16,-92.16v0c0,-50.89856 41.26144,-92.16 92.16,-92.16v0c50.89856,0 92.16,41.26144 92.16,92.16v0c0,50.89856 -41.26144,92.16 -92.16,92.16z" fill="none"></path><path d="M96,192c-53.01934,0 -96,-42.98066 -96,-96v0c0,-53.01934 42.98066,-96 96,-96v0c53.01934,0 96,42.98066 96,96v0c0,53.01934 -42.98066,96 -96,96z" fill="none"></path><path d="M96,188.16c-50.89856,0 -92.16,-41.26144 -92.16,-92.16v0c0,-50.89856 41.26144,-92.16 92.16,-92.16v0c50.89856,0 92.16,41.26144 92.16,92.16v0c0,50.89856 -41.26144,92.16 -92.16,92.16z" fill="none"></path></g></g></svg><br/>
+			Admin Support<br/>
+			<a href="/">SUPPORT</a><br/>
+			support_admin@medtrainer.com<br/>
+			
+			<div class="list-group list-group-flush">
+				<a href="#" class="list-group-item list-group-item-action bg-light">Video Distribution</a>
+				<a href="#" class="list-group-item list-group-item-action bg-light">Analitics Dashboard</a>
+				<a href="#" class="list-group-item list-group-item-action bg-light">Bundle Dashboard</a>
+			</div>
+
+
+		</div>
+
+		<!-- Page Content -->
+		<div id="page-content-wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col">
+						<b style="font-size: 20px">Welcome to Orbits!</b>
+						<div class="float-right">
+							<b>Please select an option</b>
+							<button class="btn btn-warning" create><i class="fas fa-medkit"></i> Create bundle</button>
+							<button id="assign_videos_btn" class="btn btn-info"><i class="fas fa-play-circle"></i> Assign Videos</button>
+							<button class="btn btn-primary"><i class="fas fa-search"></i></button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div id="assign_videos" style="display: none;">
+								<h5>Assign videos</h5>
+								<hr/>
+								<b>Select the videos you want to assign</b><br/>
+								<div id="selected_videos"> </div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" id="select_all_radio_btn">
+									<label class="form-check-label" for="select_all_radio_btn"> Select all videos </label>
+								</div>
+								<b>Assign videos to</b><br/>
+								<form class="form-inline">
+									<div class="form-group mb-2">
+										<input type="email" class="form-control" id="email_input" placeholder="email@email.com" style="border-radius: 0px; margin-right: 5px;">
+									</div>
+									<button class="btn btn-info mb-2" style="border-radius: 0rem .25rem .25rem 0rem;">Add</button>
+								</form>
+								<small id="emailHelp" class="form-text text-muted">Add the email addresses of the people that will have this bundle assigned.</small>
+								<button type="button" class="btn btn-success">Assgin</button>
+								<button id="cancel_assignation" type="button" class="btn btn-light">Cancel</button>
+						</div>
+					</div>
+				</div>
+				<div id="videos" class="videos row"> </div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
+</body>
+</html>
